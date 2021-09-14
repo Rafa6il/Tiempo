@@ -2,6 +2,7 @@
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Setup](#setup)
+* [Execute](#execute)
 
 ## General info
 This is a simple weather forecast web service based on Flask and a python script which accesses to this service.
@@ -23,4 +24,11 @@ To run this project, install the dependencies locally using:
 ```
 $ cd ../tiempo
 $ pip install -r requirements.txt
+```
+## Execute
+To run the web service and client, use these commands:
+```
+$ cd ../tiempo
+$ python app.py
+$ python query city=Palma
 ```

@@ -1,11 +1,12 @@
 import sys
-
 import requests
 
+def urlbuilder():
+    link = f"http://127.0.0.1:5000/?" + sys.argv[1]
+    return link
 
 def query():
-
-    url = f"http://127.0.0.1:5000/?" + sys.argv[1]
+    url= urlbuilder()
     try:
         res = requests.get(url).json()
     except requests.exceptions.RequestException:
