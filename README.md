@@ -14,7 +14,7 @@ Query.py is the client script that creates the query for the forecast service.
 	
 ## Technologies
 Project is created with:
-* Python 3.9.5
+* Python==3.9.5
 * Flask==2.0.1
 * pyowm==3.2.0
 	
