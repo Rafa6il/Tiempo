@@ -18,7 +18,7 @@ Project is created with:
 * pyowm==3.2.0
 	
 ## Setup
-To run this project, install the dependencies locally using freeze:
+To run this project, install the dependencies locally using:
 
 ```
 $ cd ../tiempo
